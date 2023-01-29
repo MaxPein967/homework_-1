@@ -3,19 +3,19 @@
 // a = 2 b = 10 -> max = 10
 // a = -9 b = -3 -> max = -3
 
-Console.WriteLine("Введите число A: ");
+Console.Write("Введите первое число a: ");
 int numberA = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите число B: ");
+Console.Write("Введите второе число b: ");
 int numberB = Convert.ToInt32(Console.ReadLine());
 
 if (numberA != numberB)
 {
     if (numberA > numberB)
     {
-        Console.WriteLine($"Максимальное: {numberA}");
+        Console.Write($"a = {numberA}; b = {numberB} -> max = {numberA}");
     }
     else
-        Console.WriteLine($"Максимальное: {numberB}"); 
+        Console.Write($"a = {numberA}; b = {numberB} -> max = {numberB}");
 }
     
 else
